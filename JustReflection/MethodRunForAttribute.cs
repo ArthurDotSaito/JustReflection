@@ -1,6 +1,6 @@
 ﻿namespace JustReflection;
 
-public class MethodRunForAttribute
+public class MethodRunForAttribute : Attribute
 {
-    
+    public int RunCount { get; set; }
 }
