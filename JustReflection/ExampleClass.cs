@@ -4,8 +4,7 @@ public class ExampleClass
 {
     public string Name { get; set; }
     public string Description { get; set; }
-
-    [MethodRunFor(RunCount = 5)]
+    
     public void Print()
     {
         Console.WriteLine($"Name: {Name}");
@@ -16,5 +15,11 @@ public class ExampleClass
     public void SayHello()
     {
         Console.WriteLine("Hello!");
+    }
+
+    [MethodRunFor(RunCount = 3)]
+    public void TestExampleClass()
+    {
+        Console.WriteLine("Hello from ExampleClass!");
     }
 }

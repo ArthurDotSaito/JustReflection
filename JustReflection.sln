@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustReflection", "JustReflection\JustReflection.csproj", "{B525F1D2-54D2-4D50-8E10-BE2459D70C07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustReflection.EF", "JustReflection.EF\JustReflection.EF.csproj", "{E489B270-F04D-4546-96EB-90D5FD2E3517}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{B525F1D2-54D2-4D50-8E10-BE2459D70C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B525F1D2-54D2-4D50-8E10-BE2459D70C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B525F1D2-54D2-4D50-8E10-BE2459D70C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E489B270-F04D-4546-96EB-90D5FD2E3517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E489B270-F04D-4546-96EB-90D5FD2E3517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E489B270-F04D-4546-96EB-90D5FD2E3517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E489B270-F04D-4546-96EB-90D5FD2E3517}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

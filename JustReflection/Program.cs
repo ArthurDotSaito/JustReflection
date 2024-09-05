@@ -38,7 +38,10 @@ class Program
         {
             var attribute = method.GetCustomAttribute<MethodRunForAttribute>();
             Console.WriteLine($"{method.Name} will run {attribute.RunCount} times");
-            method.Invoke(obj, null);
+            for (var i = 0; i < attribute.RunCount; i++)
+            {
+                method.Invoke(obj, null);
+            }
         }
     }
 }
